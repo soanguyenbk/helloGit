@@ -261,10 +261,14 @@
 		C8AFD769181114B900C2320B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Nguyen (6377A6RM9B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michael Nguyen (6377A6RM9B)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "helloGit/helloGit-Prefix.pch";
 				INFOPLIST_FILE = "helloGit/helloGit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "24B905AB-6BD8-4066-B5B6-C600DBAD3AE4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "24B905AB-6BD8-4066-B5B6-C600DBAD3AE4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -272,10 +276,14 @@
 		C8AFD76A181114B900C2320B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michael Nguyen (6377A6RM9B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Michael Nguyen (6377A6RM9B)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "helloGit/helloGit-Prefix.pch";
 				INFOPLIST_FILE = "helloGit/helloGit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "24B905AB-6BD8-4066-B5B6-C600DBAD3AE4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "24B905AB-6BD8-4066-B5B6-C600DBAD3AE4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -299,6 +307,7 @@
 				C8AFD76A181114B900C2320B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
